@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[hello]]>
+    </line>
+    <line>
+      <![CDATA[india]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-15T15:37:37 IST" name="Default suite" finished-at="2023-12-15T15:37:37 IST" duration-ms="143">
+    <groups>
+    </groups>
+    <test started-at="2023-12-15T15:37:37 IST" name="Default test" finished-at="2023-12-15T15:37:37 IST" duration-ms="143">
+      <class name="test.demo1">
+        <test-method signature="test1()[pri:0, instance:test.demo1@7ce97ee5]" started-at="2023-12-15T15:37:37 IST" name="test1" finished-at="2023-12-15T15:37:37 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hello]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:test.demo1@7ce97ee5]" started-at="2023-12-15T15:37:37 IST" name="test2" finished-at="2023-12-15T15:37:37 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[india]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- test.demo1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
